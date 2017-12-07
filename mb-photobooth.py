@@ -2,8 +2,8 @@ from microbit import *
 
 while True:
     if pin0.is_touched():
-        for i in range(6):
-            curr_count = 5 - i
+        for i in range(4):
+            curr_count = 3 - i
             
             if curr_count > 0:
                 display.show(str(curr_count))
